@@ -2,10 +2,10 @@ check active servers
 $ lsof -i :3000
 
 stop activate server
-kill -9 <PID>
+$ kill -9 <PID>
 
 activate server
-php -S localhost:3000 (port number is alternative)
+$ php -S localhost:3000 (port number is alternative)
 
 access to the following address on browser
 http://localhost:<port number>/<file name>
